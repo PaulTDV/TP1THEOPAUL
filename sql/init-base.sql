@@ -1,0 +1,7 @@
+CREATE DATABASE IF NOT EXISTS rocket_league;
+USE rocket_league;
+
+CREATE TABLE IF NOT EXISTS votes (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    mode VARCHAR(20) NOT NULL
+);
